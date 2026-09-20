@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/weiss_dev/source/git/c-http-server",
+      "program": "/Users/weiss_dev/source/git/c-http-server/build/Debug/outDebug"
+    }
+  ]
+}
