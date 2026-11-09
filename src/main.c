@@ -8,7 +8,7 @@ int main(int argc, char* argv[]){
       free(argv);
     }
 
-    int list_r = listentoport(8080);
+    int list_r = listen_to_port(8080);
     if(-1 == list_r){
         return -1;
     }

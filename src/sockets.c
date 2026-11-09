@@ -7,7 +7,7 @@
 #include <sys/socket.h>
 #include <unistd.h>
 
-int listentoport(int port) {
+int listen_to_port(int port) {
   // listen to the port while the app is running
   if (1 > port || 65535 < port) {
     return -1;
